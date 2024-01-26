@@ -14,10 +14,10 @@ local opts = { noremap = true, silent = true }
 vim.api.nvim_set_keymap('', '<Leader>d', '"_d', opts)
 
 -- shift the movement keys by 0 to the right
-vim.api.nvim_set_keymap('', 'j', 'h', opts)
-vim.api.nvim_set_keymap('', 'k', 'j', opts)
-vim.api.nvim_set_keymap('', 'l', 'k', opts)
-vim.api.nvim_set_keymap('', 'č', 'l', opts)
+-- vim.api.nvim_set_keymap('', 'j', 'h', opts)
+-- vim.api.nvim_set_keymap('', 'k', 'j', opts)
+-- vim.api.nvim_set_keymap('', 'l', 'k', opts)
+-- vim.api.nvim_set_keymap('', 'č', 'l', opts)
 
 -- mapping ESC to ć
 vim.api.nvim_set_keymap('n', 'ć', '<Esc>', opts)
@@ -59,10 +59,10 @@ vim.api.nvim_set_keymap('i', '<Tab>', '\t', opts)
 vim.api.nvim_set_keymap('i', '<S-Tab>', '\b', opts)
 
 -- window movement
-vim.api.nvim_set_keymap('', '<C-w>j', '<C-w>h', opts)
-vim.api.nvim_set_keymap('', '<C-w>k', '<C-w>j', opts)
-vim.api.nvim_set_keymap('', '<C-w>l', '<C-w>k', opts)
-vim.api.nvim_set_keymap('', '<C-w>č', '<C-w>l', opts)
+-- vim.api.nvim_set_keymap('', '<C-w>j', '<C-w>h', opts)
+-- vim.api.nvim_set_keymap('', '<C-w>k', '<C-w>j', opts)
+-- vim.api.nvim_set_keymap('', '<C-w>l', '<C-w>k', opts)
+-- vim.api.nvim_set_keymap('', '<C-w>č', '<C-w>l', opts)
 
 -- opening terminal with shortcut
 vim.api.nvim_set_keymap('', '<Leader><CR>', '<Cmd>silent !$TERM &<CR>', opts)
